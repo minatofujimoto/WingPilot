@@ -1,0 +1,126 @@
+# <p align="center">WingPilot: Effortless Data Management With Suggestion</p>
+
+Simplify your data management experience with WingPilot, a versatile tool designed to streamline interaction with employee datasets. WingPilot offers intuitive features for discussing insights, adding new employees, and removing outdated information, all through a user-friendly chat interface powered by Copilot Kit.
+
+
+## Dev.to Article
+https://dev.to/sauravkumarmahato/project-using-copilotkit-with-nextjs-implementing-chatbot-and-autosuggestion-4ehh
+
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [TechStack](#techstack)
+- [Installation & Running Project](#installation--running-project)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+**Efficient Employee Data Management: Simplify Your Data Handling**
+
+WingPilot streamlines the management of employee data, offering a user-friendly interface for effortless interaction. Whether it's adding, deleting, or discussing insights, WingPilot ensures a smooth experience, reducing complexity and enhancing productivity.
+
+---
+
+**Smart Record Creation with Suggestions: Streamline Data Entry**
+
+WingPilot integrates intelligent suggestions into the record creation process, providing users with helpful prompts to populate employee records accurately. By leveraging smart suggestions, WingPilot minimizes manual effort and ensures data completeness and accuracy.
+
+
+## Demo
+<!-- demo link -->
+
+https://github.com/SauravKumarMahato/WingPilot/assets/83631265/cda82d7e-d103-434a-8b35-1a5d676f6f9f
+
+## TechStack
+
+- Next JS
+- TypeScript
+- Material UI (Tailwind)
+- CopilotKit
+
+
+## Installation & Running Project
+
+### Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/SauravKumarMahato/WingPilot.git
+```
+
+2. Navigate to the cloned directory:
+
+```bash
+cd WingPilot/wingpilot
+```
+
+3. Add your OpenAI API key
+
+Add your environment variables to `.env.local` inside this directory WingPilot/wingpilot/.env.local 
+
+```
+OPENAI_API_KEY=your-api-key
+```
+
+3. Install the required dependencies:
+
+```bash
+yarn install 
+```
+
+
+4. Finally running the Projet. 
+
+```bash
+yarn run dev
+```
+
+### The Copilot-Specific parts of the code:
+
+1. Notice `<CopilotKit />` and `<CopilotSidebar />` in `layout.tsx`
+
+2. Notice `useCopilotReadable`  and `useCopilotAction` in `Table/page.tsx` 
+
+3. Notice  `<CopilotTextarea />` in `Table/Form.tsx`
+
+## Contributing
+
+We encourage contributions to enhance and elevate [WingPilot](https://github.com/SauravKumarMahato/WingPilot.git). Don't hesistate to submit issues, suggest new features, or initiate pull requests. Kindly follow our Code of Conduct for a respectful and collaborative environment.
+
+## License
+
+This project is licensed under the [MIT License](/LICENSE).
+<!-- Unit feature -->
+<!-- Unit feature - 20251109_0021 -->
+<!-- Unit feature - 20251111_0024 -->
+<!-- Unit feature - 20251115_0032 -->
+<!-- Unit feature - 20251117_0037 -->
+<!-- Unit feature - 20251117_0038 -->
+<!-- Unit feature - 20251118_0040 -->
+<!-- Unit feature - 20251118_0041 -->
+<!-- Unit feature - 20251128_0063 -->
+<!-- Unit feature - 20251202_0074 -->
+<!-- Unit feature - 20251203_0077 -->
+<!-- Unit feature - 20251207_0088 -->
+<!-- Unit feature - 20251208_0089 -->
+<!-- Unit feature - 20251210_0095 -->
+<!-- Unit feature - 20251211_0096 -->
+<!-- Unit feature - 20251104_0008 -->
+<!-- Unit feature - 20251106_0014 -->
+<!-- Unit feature - 20251114_0034 -->
+<!-- Unit feature - 20251116_0040 -->
+<!-- Unit feature - 20251121_0051 -->
+<!-- Unit feature - 20251122_0053 -->
+<!-- Unit feature - 20251129_0071 -->
+<!-- Unit feature - 20251204_0083 -->
+<!-- Unit feature - 20251206_0089 -->
+<!-- Unit feature - 20251207_0002 -->
+<!-- Unit feature - 20251208_0005 -->
+<!-- Unit feature - 20251209_0007 -->
+<!-- Unit feature - 20251210_0009 -->
+<!-- Unit feature - 20251210_0010 -->
+<!-- Unit feature - 20251211_0013 -->
+<!-- Unit feature - 20251104_0011 -->
